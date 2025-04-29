@@ -588,7 +588,6 @@ void DrawLeaderboard() {
 }
 
 void DrawNameInput() {
-    // Dark background
     DrawRectangle(0, 0, GetScreenWidth(), GetScreenHeight(), Fade(BLACK, 0.7f));
 
     DrawText("NEW HIGH SCORE!", GetScreenWidth()/2 - MeasureText("NEW HIGH SCORE!", 40)/2, 150, 40, GOLD);
